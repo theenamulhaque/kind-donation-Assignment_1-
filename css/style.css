@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif; 
+}
+
+/*  */
+
+/* HEADER SECTION CODE START *****************************/
+
+.header-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-textbox {
+    
+}
+
+.header-textbox h1 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.header-textbox p {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+}
+
+
+.header-btn {
+    text-align: center;
+    padding: 20px 0;
+} 
+
+.head-btn {
+    padding: 15px 40px;
+    background-color: #FF5959;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* HEADER SECTION CODE END ******************************/
+
+/* DONATE TODAY SECTION CODE START ******************************/
+
+.donate-today-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.donate-today-textbox {
+
+}
+
+.donate-today-textbox h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.donate-today-textbox p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+}
+
+/* DONATE TODAY SECTION CODE END ******************************/
+
+/* DONATE TODAY GRID SECTION CODE START ******************************/
+
+.donate-today-grid-section {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.donate-today-innergrid {
+    
+    padding: 40px 30px;
+    background: #FAFAFA;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+
+.color-grid {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+.donate-today-innergrid h3 {
+    color: #707070;
+    font-weight: 800;
+}
+
+
+/* DONATE TODAY GRID SECTION CODE END
+******************************/
+
+/* DONATE INPUT SECTION CODE START
+******************************/
+
+.donate-input-section {
+    width: 100%;
+    height: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+.donate-inputbox {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 650px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #DADADA;
+}
+
+input[type="submit"] {
+    padding: 15px 30px;
+    background-color: #FF5959;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* DONATE INPUT SECTION CODE END
+******************************/
+
+/* DONATE PLAN TITLE SECTION CODE START
+******************************/
+
+.donate-plan-title-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.donate-plan-title-textbox h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.donate-plan-title-textbox p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+}
+
+
+
+/* DONATE PLAN TITLE SECTION CODE END
+******************************/
+
+/* DONATE PLAN GRID SECTION CODE START
+******************************/
+
+.donate-plan-grid-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+/* DONATE PLAN GRID SECTION CODE END
+******************************/
