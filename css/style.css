@@ -8,6 +8,10 @@ body {
     font-family: 'Raleway', sans-serif; 
 }
 
+a {
+    text-decoration: none;
+}
+
 /*  */
 
 /* HEADER SECTION CODE START *****************************/
@@ -32,7 +36,7 @@ body {
     color: #fff;
     font-size: 60px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .header-textbox p {
@@ -45,17 +49,19 @@ body {
 
 .header-btn {
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
 } 
 
-.head-btn {
-    padding: 15px 40px;
+.header-btn a{
+    padding: 15px 16px;
     background-color: #FF5959;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 4px;
     border: none;
     font-size: 14px;
     font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 30px;
 }
 
 
@@ -139,7 +145,7 @@ body {
     text-align: center;
 }
 
-input[type="text"] {
+.donate-inputbox input[type="text"] {
     width: 650px;
     padding: 10px;
     border: none;
@@ -149,7 +155,7 @@ input[type="text"] {
     color: #DADADA;
 }
 
-input[type="submit"] {
+.donate-inputbox input[type="submit"] {
     padding: 15px 30px;
     background-color: #FF5959;
     color: #fff;
@@ -157,6 +163,8 @@ input[type="submit"] {
     border: none;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
+    outline: none;
 }
 
 
@@ -196,18 +204,383 @@ input[type="submit"] {
 
 .donate-plan-grid-section {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 
+.donate-plan-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 120px;
+    padding-bottom: 80px;
+}
 
+/* 1 */
 
+.donate-plan-innergrid-one {
+    background-color: rgba(196, 244, 250, 0.5);
+    padding: 60px 30px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
 
+.donate-plan-innergrid-one img {
+    width: 45px;
+    margin-bottom: 20px;
+}
 
+.donate-plan-innergrid-one h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.donate-plan-innergrid-one p {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+/* 2 */
+
+.donate-plan-innergrid-two {
+    background-color: #FEDDDD;
+    padding: 60px 30px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.donate-plan-innergrid-two img {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.donate-plan-innergrid-two h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.donate-plan-innergrid-two p {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+/* 3 */
+
+.donate-plan-innergrid-three {
+    background-color: #fff4d6;
+    padding: 60px 30px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.donate-plan-innergrid-three img {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.donate-plan-innergrid-three h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.donate-plan-innergrid-three p {
+    font-size: 13px;
+    line-height: 24px;
+}
 
 
 /* DONATE PLAN GRID SECTION CODE END
+******************************/
+
+/* DONATE IMAGE-GRID SECTION CODE START
+******************************/
+
+.donate-image-grid-section-one {
+    width: 100%;
+    height: 100vh;    
+}
+
+/* 1 */
+
+.donate-image-grid-inner-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.image-grid-inner-textbox-one {
+    padding-right: 50px;
+}
+
+.image-grid-inner-textbox-one h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.image-grid-inner-textbox-one p {
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.donate-image-grid-btn-one a{
+    padding: 10px 20px;
+    background-color: #FF5959;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.image-grid-inner-imagebox-one img {
+    width: 500px;
+    border-radius: 4px;
+}
+
+/* 2 */
+
+.donate-image-grid-section-two {
+    width: 100%;
+    height: 100vh; 
+    padding: 80px 0;   
+}
+
+.donate-image-grid-inner-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.image-grid-inner-textbox-two {
+    padding-left: 50px;
+}
+
+.image-grid-inner-textbox-two h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.image-grid-inner-textbox-two p {
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.donate-image-grid-btn-two a{
+    padding: 10px 20px;
+    background-color: #FF5959;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.image-grid-inner-imagebox-two img {
+    width: 500px;
+    border-radius: 4px;
+}
+
+
+
+/* DONATE IMAGE-GRID SECTION CODE END
+******************************/
+
+/* DONATE TESTIMONIALS TITLE SECTION CODE START
+******************************/
+
+.donate-testimonail-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.donate-testimonial-textbox h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.donate-testimonial-textbox p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+}
+
+
+/* DONATE TESTIMONIALS TITLE SECTION CODE END
+******************************/
+
+/* DONATE TESTIMONIALS GRID SECTION CODE START
+******************************/
+
+.donate-testimonial-grid-section {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.donate-testimonial-inner {
+    padding: 30px 120px;
+    text-align: center;
+    border: 2px solid #FF5959;
+    margin: 0 120px;
+    border-radius: 10px;
+    background-image: url(../image/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.donate-testimonial-inner img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 2px solid #E1F9FC;
+}
+
+.donate-testimonial-inner p {
+    font-style: italic;
+    line-height: 27px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.donate-testimonial-inner h5 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.designation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.designation .company {
+    font-weight: 800;
+    color: #FF5959;
+    font-size: 12px;
+} 
+
+
+/* DONATE TESTIMONIALS GRID SECTION CODE END
+******************************/
+
+/* DONATE UPDATE TITLE SECTION CODE START
+******************************/
+
+
+.donate-update-tite-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    margin-bottom: 30px;
+}
+
+.donate-update-tite-textbox h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.donate-update-tite-textbox p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+}
+
+
+
+/* DONATE UPDATE TITLE SECTION CODE END
+******************************/
+
+/* DONATE UPDATE FORM SECTION CODE START
+******************************/
+
+.donate-update-form-section {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+ 
+}
+
+.inner-form {
+
+    padding: 0px 300px;
+    padding-bottom: 150px;
+
+}
+
+form {
+    text-align: center;
+    background-color: #fff4d6;
+    padding: 80px 80px;
+    border-radius: 5px;
+}
+
+.inner-form input[type="text"] {
+    padding: 15px 10px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    outline: none;
+    background-color: #d9d9d9;
+    width: 300px;
+}
+
+.inner-form input[type="submit"] {
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    background-color: #FF5959;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+    cursor: pointer;
+
+}
+
+
+/* DONATE UPDATE FORM SECTION CODE END
+******************************/
+
+/* DONATE FOOTER SECTION CODE START
+******************************/
+
+.donate-footer-section {
+    width: 100%;
+    height: 50vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-footer-textbox h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+}
+
+.donate-footer-textbox p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+}
+
+
+
+/* DONATE FOOTER SECTION CODE END
 ******************************/
