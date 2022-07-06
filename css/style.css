@@ -32,6 +32,10 @@ a {
     
 }
 
+span {
+    color: #FF5959
+}
+
 .header-textbox h1 {
     color: #fff;
     font-size: 60px;
