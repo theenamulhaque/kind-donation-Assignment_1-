@@ -53,7 +53,7 @@ a {
 } 
 
 .header-btn a{
-    padding: 15px 16px;
+    padding: 14px 20px;
     background-color: #FF5959;
     color: #fff;
     border-radius: 4px;
@@ -112,6 +112,7 @@ a {
     background: #FAFAFA;
     margin: 0px 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .color-grid {
