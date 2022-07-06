@@ -329,10 +329,12 @@ a {
 }
 
 .donate-image-grid-btn-one a{
-    padding: 10px 20px;
+    padding: 14px 20px;
     background-color: #FF5959;
     color: #fff;
     border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .image-grid-inner-imagebox-one img {
@@ -371,10 +373,12 @@ a {
 }
 
 .donate-image-grid-btn-two a{
-    padding: 10px 20px;
+    padding: 14px 20px;
     background-color: #FF5959;
     color: #fff;
     border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .image-grid-inner-imagebox-two img {
